@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Calculator</title>
+        <link rel="stylesheet" type="text/css" href="cal.css">
+
+    </head>
+    <body>
+       
+       <div class="main">
+             
+            <form name="myForm">
+                <input type="text" id="textview" value="0" class="textview" disabled>
+            </form>
+            <div class="keys">
+             <button class="button gray symbol", value="√" onclick = "sqaureRoot()" id="r" >√</button></td>
+             <button class="button gray symbol", value="x2" onclick = "sqaure()" id="s">x2</button></td>
+             <button class="button gray symbol", value="⌫" onclick="back()">⌫</button></td>
+             <button class="button blue symbol", value="÷" onclick="insert('/')">÷</button></td>
+             <button class="button gray number", value="7" onclick="insert(7)">7</button></td>
+             <button class="button gray number", value="8" onclick="insert(8)">8</button></td>
+             <button class="button gray number", value="9" onclick="insert(9)">9</button></td>
+             <button class="button blue symbol", value="X" onclick="insert('*')">X</button></td>
+             <button class="button gray number", value="4" onclick="insert(4)">4</button></td>
+             <button class="button gray number", value="5" onclick="insert(5)">5</button></td>
+             <button class="button gray number", value="6" onclick="insert(6)">6</button></td>
+             <button class="button blue symbol", value="-" onclick="insert('-')">-</button></td>
+             <button class="button gray number", value="1" onclick="insert(1)">1</button></td>
+             <button class="button gray number", value="2" onclick="insert(2)">2</button></td>
+             <button class="button gray number", value="3" onclick="insert(3)">3</button></td>
+             <button class="button blue symbol", value="+" onclick="insert('+')">+</button></td>
+             <button class="button blue symbol", value="C" onclick="clean()">C</button></td>
+              <button class="button gray number", value="0" onclick="insert(0)">0</button></td>
+              <button class="button blue symbol", value="." onclick="insert('.')">.</button></td>
+              <button class="button blue symbol", value="=" onclick="equalTo()">=</button></td>
+          </div>
+      </div>
+        <script src="cal.js"></script>
+    </body>
+</html>
